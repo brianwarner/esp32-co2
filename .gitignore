@@ -1,0 +1,18 @@
+*.swp
+.DS_Store
+__pycache__
+.env
+
+# ESP-IDF build output
+build/
+sdkconfig
+sdkconfig.old
+managed_components/
+dependencies.lock
+
+# Generated from .env at build time
+main/env_config.h
+
+# Host-side preview
+build-preview
+preview.bmp
